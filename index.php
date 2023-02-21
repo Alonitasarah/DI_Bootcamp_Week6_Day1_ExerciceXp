@@ -22,6 +22,26 @@
       ?>
       <h4> Exercice4 <h4>
         <?php
+        
+        /**
+        Correcteur: Yannick GOUGUIA
+        
+        
+            🌟 Exercise 4 : Reverse The String
+            Instructions
+            Write a PHP program to reverse the string.
+            You can use any string related built-in Function.
+            You can use only one variable.
+            
+            
+            Sarah, l'exercice demande renverser un texte string et non un tableau
+            
+            ex:         
+            $str = "Tutorials Class";
+            echo strrev($str);
+            
+        */
+             
         $chaine = array("Bonjour. ", "passe une ", "bonne journée");
         print_r(strrev($chaine));
         ?>
