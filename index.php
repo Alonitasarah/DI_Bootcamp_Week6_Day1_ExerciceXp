@@ -23,7 +23,7 @@
       <h4> Exercice4 <h4>
         <?php
         $chaine = array("Bonjour. ", "passe une ", "bonne journée");
-        print_r(array_reverse($chaine));
+        print_r(strrev($chaine));
         ?>
   </body>
 </html>   
